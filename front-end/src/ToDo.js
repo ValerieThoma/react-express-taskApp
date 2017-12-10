@@ -10,6 +10,7 @@ class ToDo extends Component{
 			taskList: []
 		}
 		this.addNewTask = this.addNewTask.bind(this);
+		this.deleteTask = this.deleteTask.bind(this);
 	}
 
 
